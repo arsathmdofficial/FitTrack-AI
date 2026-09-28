@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FitTrack AI | Smart Fitness</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <a href="#" class="logo" onclick="showPage('home')">
+        <span class="logo-icon">✦</span>
+        <span>FitTrack <b>AI</b></span>
+    </a>
+
+    <nav class="nav-links">
+        <a href="#home" onclick="showPage('home')">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <div class="nav-actions">
+        <button class="btn btn-outline" onclick="showPage('login')">
+            Login
+        </button>
+
+        <button class="btn btn-primary" onclick="showPage('register')">
+            Get Started
+        </button>
+    </div>
+
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<main id="home" class="page active">
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                <span>✦</span>
+                AI-Powered Fitness Platform
+            </div>
+
+            <h1>
+                Your Fitness.
+                <span>Your Data.</span>
+                Your Progress.
+            </h1>
+
+            <p>
+                FitTrack AI helps you track your daily fitness,
+                understand your progress and build healthier habits
+                with intelligent insights.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="btn btn-primary btn-large"
+                        onclick="showPage('register')">
+                    Start Your Journey
+                    <span>→</span>
+                </button>
+
+                <a href="#features" class="btn btn-light btn-large">
+                    Explore Features
+                </a>
+
+            </div>
+
+            <div class="trust-row">
+                <div>
+                    <strong>10K+</strong>
+                    <span>Fitness Goals</span>
+                </div>
+
+                <div>
+                    <strong>24/7</strong>
+                    <span>Progress Tracking</span>
+                </div>
+
+                <div>
+                    <strong>100%</strong>
+                    <span>Personalized</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- FITNESS CARD -->
+
+        <div class="hero-visual">
+
+            <div class="glow"></div>
+
+            <div class="fitness-card">
+
+                <div class="card-top">
+                    <div>
+                        <span class="small-label">Today's Progress</span>
+                        <h3>Great Work! 🔥</h3>
+                    </div>
+
+                    <div class="avatar">FT</div>
+                </div>
+
+                <div class="progress-circle">
+                    <div class="circle-inner">
+                        <strong>78%</strong>
+                        <span>Daily Goal</span>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+
+                    <div class="stat">
+                        <span class="stat-icon orange">🔥</span>
+                        <div>
+                            <strong>1,842</strong>
+                            <small>Calories</small>
+                        </div>
+                    </div>
+
+                    <div class="stat">
+                        <span class="stat-icon purple">👟</span>
+                        <div>
+                            <strong>8,426</strong>
+                            <small>Steps</small>
+                        </div>
+                    </div>
+
+                    <div class="stat">
+                        <span class="stat-icon blue">💧</span>
+                        <div>
+                            <strong>1.8 L</strong>
+                            <small>Water</small>
+                        </div>
+                    </div>
+
+                    <div class="stat">
+                        <span class="stat-icon green">⚡</span>
+                        <div>
+                            <strong>42 min</strong>
+                            <small>Workout</small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ai-insight">
+                    <span>✦</span>
+                    <div>
+                        <strong>AI Insight</strong>
+                        <p>You're improving consistently!</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section id="features" class="section">
+
+        <div class="section-heading">
+
+            <span class="section-label">SMART FITNESS</span>
+
+            <h2>
+                Everything You Need
+                <span>In One Place</span>
+            </h2>
+
+            <p>
+                Track your daily activities, understand your progress
+                and get personalized insights.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <article class="feature-card">
+
+                <div class="feature-icon purple-bg">✦</div>
+
+                <h3>AI Fitness Insights</h3>
+
+                <p>
+                    Get intelligent recommendations based on your
+                    fitness activity and progress.
+                </p>
+
+                <a href="#">Learn more →</a>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon blue-bg">▥</div>
+
+                <h3>Progress Tracking</h3>
+
+                <p>
+                    Monitor workouts, calories, steps and other
+                    important fitness metrics.
+                </p>
+
+                <a href="#">Learn more →</a>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon orange-bg">◎</div>
+
+                <h3>Personal Goals</h3>
+
+                <p>
+                    Set your fitness goals and keep track of your
+                    daily and weekly achievements.
+                </p>
+
+                <a href="#">Learn more →</a>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon green-bg">♥</div>
+
+                <h3>Health Habits</h3>
+
+                <p>
+                    Keep an eye on hydration, activity and healthy
+                    daily routines.
+                </p>
+
+                <a href="#">Learn more →</a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about-section">
+
+        <div class="about-content">
+
+            <span class="section-label">ABOUT FITTRACK AI</span>
+
+            <h2>
+                Technology That
+                <span>Understands Your Fitness</span>
+            </h2>
+
+            <p>
+                FitTrack AI is designed to make fitness tracking
+                simple, understandable and personalized.
+            </p>
+
+            <p>
+                Instead of only showing numbers, the platform turns
+                your fitness data into meaningful insights that help
+                you understand your progress.
+            </p>
+
+            <div class="check-list">
+
+                <div>✓ Easy fitness tracking</div>
+                <div>✓ Personalized insights</div>
+                <div>✓ Simple progress visualization</div>
+
+            </div>
+
+            <button class="btn btn-primary"
+                    onclick="showPage('register')">
+                Get Started →
+            </button>
+
+        </div>
+
+        <div class="about-card">
+
+            <div class="about-card-icon">✦</div>
+
+            <h3>Smart. Simple. Personal.</h3>
+
+            <p>
+                Your fitness journey starts with understanding
+                where you are today.
+            </p>
+
+            <div class="mini-progress">
+                <div></div>
+            </div>
+
+            <span>Personal Progress</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta">
+
+        <div>
+
+            <span class="section-label">READY TO START?</span>
+
+            <h2>
+                Start Your Fitness Journey Today
+            </h2>
+
+            <p>
+                Create your account and start tracking your progress.
+            </p>
+
+        </div>
+
+        <button class="btn btn-white btn-large"
+                onclick="showPage('register')">
+            Create Free Account →
+        </button>
+
+    </section>
+
+</main>
+
+
+<!-- ================= LOGIN ================= -->
+
+<section id="login" class="page auth-page">
+
+    <div class="auth-card">
+
+        <button class="close-btn" onclick="showPage('home')">
+            ×
+        </button>
+
+        <div class="auth-logo">
+            <span>✦</span>
+            FitTrack AI
+        </div>
+
+        <h1>Welcome Back</h1>
+
+        <p class="auth-subtitle">
+            Login to continue your fitness journey.
+        </p>
+
+
+        <form onsubmit="loginUser(event)">
+
+            <label>Email Address</label>
+
+            <input
+                type="email"
+                id="loginEmail"
+                placeholder="Enter your email"
+                required
+            >
+
+
+            <label>Password</label>
+
+            <input
+                type="password"
+                id="loginPassword"
+                placeholder="Enter your password"
+                required
+            >
+
+
+            <div class="form-row">
+
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Remember me
+                </label>
+
+                <a href="#">Forgot password?</a>
+
+            </div>
+
+
+            <button class="btn btn-primary full-width">
+                Login →
+            </button>
+
+        </form>
+
+
+        <p class="switch-auth">
+            Don't have an account?
+            <button onclick="showPage('register')">
+                Create one
+            </button>
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= REGISTER ================= -->
+
+<section id="register" class="page auth-page">
+
+    <div class="auth-card">
+
+        <button class="close-btn" onclick="showPage('home')">
+            ×
+        </button>
+
+        <div class="auth-logo">
+            <span>✦</span>
+            FitTrack AI
+        </div>
+
+        <h1>Create Account</h1>
+
+        <p class="auth-subtitle">
+            Start your personalized fitness journey.
+        </p>
+
+
+        <form onsubmit="registerUser(event)">
+
+            <label>Full Name</label>
+
+            <input
+                type="text"
+                id="registerName"
+                placeholder="Enter your full name"
+                required
+            >
+
+
+            <label>Email Address</label>
+
+            <input
+                type="email"
+                id="registerEmail"
+                placeholder="Enter your email"
+                required
+            >
+
+
+            <label>Password</label>
+
+            <input
+                type="password"
+                id="registerPassword"
+                placeholder="Create a password"
+                minlength="6"
+                required
+            >
+
+
+            <label class="checkbox terms">
+                <input type="checkbox" required>
+                I agree to the terms and conditions
+            </label>
+
+
+            <button class="btn btn-primary full-width">
+                Create Account →
+            </button>
+
+        </form>
+
+
+        <p class="switch-auth">
+            Already have an account?
+            <button onclick="showPage('login')">
+                Login
+            </button>
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        <span>✦</span>
+        FitTrack AI
+    </div>
+
+    <p>
+        Smart technology for a healthier you.
+    </p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+    </div>
+
+    <div class="copyright">
+        © 2026 FitTrack AI. College Project.
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
